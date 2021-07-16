@@ -1,12 +1,8 @@
 header{
- background-color: #f6f;
+ background-color:#f6f6f6;
  padding: 20px;
  text-align: center;
- position: fixed;
- width: 100%;
- z-index: 1;
- top: 0;
- left: 0;
+ width: 99%;
 }
 
 header h1{
@@ -18,23 +14,19 @@ header h1{
 }
 
 .banner{
- position: relative;
-}
+ width: 102%;
 
-.banner img{
- img-width: 
 }
-
 
 .banner welcome{
  background-color: #00ffff;
  color: #fffaf0;
- padding: 30px;
- position: absolute;
+ padding: 20px;
+ 
 
 }
 .banner h2{
- font-size: 74px;
+ font-size: 30px;
 }
 
 .banner h2 span{
@@ -42,12 +34,26 @@ header h1{
 }
 
 nav ul{
- white-space: nowrap;
- max-width: 1200px;
- margin: 0 auto;
+list-style: none;
 }
 nav li{
  width: 25%;
- display: inline-block;
+ float: left;
  font-size: 24px;
+ padding: 10px;
+
+}
+
+div{
+  height: 200px;
+  width: 100%;
+}
+.outer{
+  width: 100%;
+  display: inline-block;
+}
+.first{
+  width: 30%;
+  display: inline-block;
+  float: left;
 }
